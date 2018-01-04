@@ -1,0 +1,10 @@
+bind a:cmd,shift sequence resize -25% +0 > push left
+
+bind d:cmd,shift sequence resize -25% +0 > push right
+
+bind w:cmd,shift sequence resize +0 -25% > push up
+
+bind s:cmd,shift sequence resize +0 -25% > push down
+
+bind h:cmd,shift corner top-left resize:screenSizeX;screenSizeY
+
